@@ -2,9 +2,13 @@
   "sections": {
     "hero": {
       "type": "groo_hero"
+    },
+    "inspiring": {
+      "type": "groo_inspiring"
     }
   },
   "order": [
-    "hero"
+    "hero",
+    "inspiring"
   ]
 }
