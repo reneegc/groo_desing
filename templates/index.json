@@ -1,6 +1,6 @@
 {
   "sections": {
-    "image_banner": {
+    "groo_hero": {
       "type": "groo_hero",
       "blocks": {
         "heading": {
@@ -200,7 +200,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "groo_hero",
     "rich_text",
     "featured_collection",
     "collage",
