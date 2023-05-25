@@ -1,7 +1,7 @@
 {
   "sections": {
     "image_banner": {
-      "type": "image-banner",
+      "type": "groo_hero",
       "blocks": {
         "heading": {
           "type": "heading",
