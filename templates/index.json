@@ -1,10 +1,10 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner"
+    "hero": {
+      "type": "groo_hero"
     }
   },
   "order": [
-    "image_banner"
+    "hero"
   ]
 }
