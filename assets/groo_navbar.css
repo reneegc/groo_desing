@@ -61,7 +61,15 @@ a {
     }
     .navbar .burguer_mobile{
         display: flex;
+        flex-direction: column;
         width: 30px;
         height: 30px;
+    }
+    .navbar .line{
+        width: 30px;
+        height: 2px;
+        border-radius: 50px;
+        background-color: #222222;
+        margin-top: 2px;
     }
 }
