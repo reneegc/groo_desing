@@ -62,7 +62,7 @@ a{
 }
 
 .hero .watch{
-    min-width: 190px;
+    max-width: 190px;
     min-height: 55px;
     padding: 16px 32px;
     border: 1px solid #2F80ED;
@@ -72,11 +72,8 @@ a{
 .hero .watch > svg{
     margin-right: 10px;
 }
-.hero .rigth_hero{
-    overflow: hidden;
-}
 .hero .img_one{
-    min-width: 580px;
+    max-width: 580px;
     min-height: 530px;
     border-radius: 32px 0px 0px 32px;
     margin-left: 120px;
@@ -84,16 +81,18 @@ a{
 
 .hero .one_one{
     margin-top: 46px;
+    max-width: 100%;
 }
 
 .hero .img_two{
-    max-width: 125px;
+    width: 125px;
     height: 125px;
     border-radius: 200px;
-    position: relative;
-    top: -50%;
+    position: absolute;
+    top: 40%;
     left: 62.5px;
-    transform: translateY(50%);
+    transform: translateY(-50%);
+    z-index: 50;
 }
 .hero .img_two > svg{
     margin-top: 25%;
@@ -107,6 +106,8 @@ a{
     top: 478.5px;
     z-index: 50;
     right: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .hero .img_three > svg{
     margin-top: 40%;
@@ -125,7 +126,29 @@ a{
     .hero .rigth_hero {
         width: 100%;
     }
+    .hero .join {
+        margin-right: 3px;
+    }
+    .hero .watch{
+        max-width: 100px;
+        padding: 16px 16px;
+
+    }
     .hero .rigth_hero {
-        margin-left: 20%;
+        margin-left: 0;
+    }
+    .hero .left_hero{
+        padding-left: 20px;
+    }
+    .hero .img_one{
+        margin-left: 0;
+    }
+    .hero .img_two{
+        left: 8%;
+    }
+    .hero .img_three{
+        top: 50%;
+        width: 150px;
+        height: 150px;
     }
 }

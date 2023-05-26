@@ -1,20 +1,10 @@
 {{ 'groo_hero.css' | asset_url | stylesheet_tag }}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../assets/groo_hero.css">
-</head>
-<body>
     <section class="hero">
         <div class="left_hero">
-            <h1 class="title_hero">Find your career mentor</h1>
+            <h1 class="title_hero">{{ section.settings.title-Hero }}</h1>
             <p class="connect_hero">
-                <strong>Connect, Learn, Grow </strong> Connect, Learn, Grow with the world’s best proven and experienced Mentors
+                <strong>{{ section.settings.description }} </strong> {{ section.settings.description-text }}
             </p>
             <div class="container_bottoms">
                 <a class="join" href="">Join Groo 
@@ -70,5 +60,25 @@
                     </div>
         </div>
     </section>
-</body>
-</html>
+    {% schema %}
+        {
+        "name": "groo_hero",
+        "settings": [
+            {
+            "type": "text",
+            "id": "title-Hero",
+            "label": "Title"
+            },
+            {
+            "type": "text",
+            "id": "description",
+            "label": "Description strong"
+            },
+            {
+            "type": "text",
+            "id": "description-text",
+            "label": "Description Text"
+            }
+        ]
+        }
+  {% endschema %}
