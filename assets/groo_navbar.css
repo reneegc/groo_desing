@@ -62,10 +62,9 @@ a {
     .navbar .burguer_mobile{
         display: flex;
         flex-direction: column;
-        min-width: 30px;
     }
     .navbar .line{
-        width: 100%;
+        width: 30px;
         height: 4px;
         border-radius: 100px;
         background-color: #222222;
