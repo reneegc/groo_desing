@@ -5,9 +5,13 @@
     },
     "inspiring": {
       "type": "groo_inspiring"
+    },
+    "navbar": {
+      "type": "groo_nabvar"
     }
   },
   "order": [
+    "navbar",
     "hero",
     "inspiring"
   ]
