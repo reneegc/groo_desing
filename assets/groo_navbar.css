@@ -51,6 +51,9 @@ a {
     letter-spacing: 0em;
     text-align: left;
 }
+.show{
+    display: block;
+}
 .navbar .container_mobile,
 .navbar .burguer_mobile{
     display: none;
@@ -67,7 +70,7 @@ a {
         width: 30px;
         height: 4px;
         border-radius: 100px;
-        background-color: #222222;
-        margin-top: 2px;
+        background-color: #2F80ED;
+        margin-top: 3px;
     }
 }
