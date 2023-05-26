@@ -7,7 +7,7 @@
       "type": "groo_inspiring"
     },
     "navbar": {
-      "type": "groo_nabvar"
+      "type": "groo_navbar"
     }
   },
   "order": [
