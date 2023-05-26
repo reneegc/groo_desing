@@ -50,5 +50,16 @@ a {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-
+}
+.navbar .container_mobile,
+.navbar .burguer_mobile{
+    display: none;
+}
+@media (max-width:1180px)  {
+    .navbar .links{
+        display: none;
+    }
+    .navbar .burguer_mobile{
+        display: flex;
+    }
 }
