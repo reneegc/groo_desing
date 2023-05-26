@@ -1,14 +1,45 @@
-.navbar{
+a {
+    text-decoration: none;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 120px;
+    padding: 48px 64px 23px;
 }
 
-.navbar .container_lest{
+.navbar .container_lest {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 100%;
-    padding-top: 48px;
+}
+
+.navbar .links, 
+.navbar .login {
+    font-family: GT America Trial;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222222;
+}
+.navbar .logo{
+    margin-right: 8px;
+}
+.navbar .links{
+    margin-left: 48px;
+} 
+
+.navbar .sign{
+    min-width: 115px;
+    min-height: 40px;
+    border-radius: 100px;
+    border: 2px solid #2F80ED;
+    color: #2F80ED;
+    padding: 8px 24px;
+    margin-right: 40px;
 }
