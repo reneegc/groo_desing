@@ -77,7 +77,7 @@ a {
         position: absolute;
         height: 100%;
         width: 100%;
-        right: 6%;
+        right: 0;
         top: 77%;
         background-color: #2F80ED;
         flex-direction: column;
