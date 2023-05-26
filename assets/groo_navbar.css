@@ -61,5 +61,7 @@ a {
     }
     .navbar .burguer_mobile{
         display: flex;
+        width: 30px;
+        height: 30px;
     }
 }
