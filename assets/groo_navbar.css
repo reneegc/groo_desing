@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 120px;
+}
+
+.navbar .container_lest{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100%;
+    padding-top: 48px;
+}
