@@ -20,11 +20,17 @@
         "text_two": "Are you inspiring your team?",
         "text_three": "Navigating the corporate culture?"
       }
+    },
+    "Connect": {
+      "type": "groo_conect",
+      "settings": {
+      }
     }
   },
   "order": [
     "navbar",
     "hero",
-    "inspiring"
+    "inspiring",
+    "Connect"
   ]
 }
