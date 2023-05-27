@@ -1,13 +1,22 @@
 {
   "sections": {
+    "navbar": {
+      "type": "groo_navbar",
+      "settings": {
+      }
+    },
     "hero": {
-      "type": "groo_hero"
+      "type": "groo_hero",
+      "settings": {
+        "title-Hero": "Find your career mentor",
+        "description": "Connect, Learn, Grow",
+        "description-text": "with the world’s best proven and experienced Mentors"
+      }
     },
     "inspiring": {
-      "type": "groo_inspiring"
-    },
-    "navbar": {
-      "type": "groo_navbar"
+      "type": "groo_inspiring",
+      "settings": {
+      }
     }
   },
   "order": [
