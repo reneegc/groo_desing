@@ -16,6 +16,9 @@
     "inspiring": {
       "type": "groo_inspiring",
       "settings": {
+        "text_one": "job?",
+        "text_two": "Are you inspiring your team?",
+        "text_three": "Navigating the corporate culture?"
       }
     }
   },
