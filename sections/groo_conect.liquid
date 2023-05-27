@@ -6,7 +6,7 @@
                 <div class="svg_conect">
                     {{
                         block.settings['image_conect']
-                        | image_url: width: number
+                        {% comment %} | image_url: width: number {% endcomment %}
                         | image_tag: class: 'svg', loading: 'lazy'
                       }}                     
                 </div>
